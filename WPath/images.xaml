@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" x:Key="Explorer" Stretch="Uniform" x:Shared="false">
+        <Canvas Name="svg23" Canvas.Left="0" Canvas.Top="0" Width="29.61" Height="25.0">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="0.05" ScaleY="0.05" />
+                    <TranslateTransform X="0" Y="5" />
+                </TransformGroup>
+            </Canvas.RenderTransform>
+            <Canvas Name="g21">
+                <Canvas.Resources>
+                    <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="SVGID_1_" MappingMode="Absolute" StartPoint="0,131" EndPoint="296,131">
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStopCollection>
+                                <GradientStop Color="#FFE897" Offset="0"/>
+                                <GradientStop Color="#FBDA62" Offset="1"/>
+                            </GradientStopCollection>
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Canvas.Resources>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path7" Fill="{StaticResource SVGID_1_}">
+                    <Path.Data>
+                        <PathGeometry Figures="M0 222.8V50.4h118l25.7-25.5h139c7.5 0 13.5 6 13.5 13.5v184.4c0 7.5-6 13.5-13.5 13.5l-269.1 0   C6 236.3 0 230.3 0 222.8z" FillRule="NonZero"/>
+                    </Path.Data>
+                </Path>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path9" Fill="#FFFECF3D">
+                    <Path.Data>
+                        <PathGeometry Figures="M118.1 50.7H0V13.5C0 6 6 0 13.5 0h101.8c10.1 4.4 19.9 12.9 29.3 25.2l0.4 0.6L118.1 50.7z" FillRule="NonZero"/>
+                    </Path.Data>
+                </Path>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path11" Fill="#FF0CCBE9">
+                    <Path.Data>
+                        <PathGeometry Figures="M18 19.4v12.8h14.1V19.4H18z" FillRule="NonZero"/>
+                    </Path.Data>
+                </Path>
+                <Polygon xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Points="123.2,236.3 97.8,236.3 97.9,174.8 99.4,174.5" Name="polygon13" FillRule="NonZero" Fill="#FFE0C974"/>
+                <Polygon xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Points="270.9,236.3 247.1,236.3 247.3,179.1 248.8,178.8" Name="polygon15" FillRule="NonZero" Fill="#FFDAB946"/>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path17" Fill="#FF3CCEF4">
+                    <Path.Data>
+                        <PathGeometry Figures="M220.2 123.7l-143.6 0c-15.7 0-28.4 12.7-28.4 28.4l0 97.9h51.1v-75.5h96.3V250h53.1v-97.9   C248.6 136.4 235.9 123.7 220.2 123.7z" FillRule="NonZero"/>
+                    </Path.Data>
+                </Path>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path19" Fill="#FFFFFFFF">
+                    <Path.Data>
+                        <PathGeometry Figures="M80.6 19.4H31.5v12.8h49.1V19.4z" FillRule="NonZero"/>
+                    </Path.Data>
+                </Path>
+            </Canvas>
+        </Canvas>
+    </Viewbox>
+
+</ResourceDictionary>
